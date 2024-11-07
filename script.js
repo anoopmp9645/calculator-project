@@ -10,3 +10,11 @@ function equalClick(){
     var result=eval(text)
     document.getElementById('screen').value=result
 }
+
+function percentageClick() {
+    var text = document.getElementById("screen").value;
+    if (text) {
+        var result = eval(text) / 100; 
+        document.getElementById("screen").value = result;
+    }
+}
