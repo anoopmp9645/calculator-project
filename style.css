@@ -2,7 +2,8 @@
     width: 400px;
     height: 600px;
     background-color: lightslategray;
-    /* margin-left: 400px; */
+    margin-left: 550px;
+    margin-top: 50px;
 }
 #screen{
     width: 80%;
